@@ -51,22 +51,22 @@ battlezonesMap.forEach((row, i) => {
 });
 
 const image = new Image();
-image.src = "./img/Pokemon Map.png";
+image.src = "./IMG/Pokemon Map.png";
 
 const ForegroundImg = new Image();
-ForegroundImg.src = "./img/ForegroundImg.png";
+ForegroundImg.src = "./IMG/ForegroundImg.png";
 
 const playerDownImage = new Image();
-playerDownImage.src = "./img/playerDown.png";
+playerDownImage.src = "./IMG/playerDown.png";
 
 const playerUpImage = new Image();
-playerUpImage.src = "./img/playerUp.png";
+playerUpImage.src = "./IMG/playerUp.png";
 
 const playerRightImage = new Image();
-playerRightImage.src = "./img/playerRight.png";
+playerRightImage.src = "./IMG/playerRight.png";
 
 const playerLeftImage = new Image();
-playerLeftImage.src = "./img/playerLeft.png";
+playerLeftImage.src = "./IMG/playerLeft.png";
 
 const player = new Sprite({
   position: {

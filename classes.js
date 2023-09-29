@@ -117,7 +117,7 @@ class Monster extends Sprite {
       case "Ember":
         audio.initFireball.play();
         const EmberImage = new Image();
-        EmberImage.src = "./img/ember.png";
+        EmberImage.src = "./IMG/ember.png";
         const Ember = new Sprite({
           position: {
             x: this.position.x,
